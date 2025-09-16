@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		116D734A2E798DE9006C3E94 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 116D73492E798DE9006C3E94 /* SnapKit */; };
+		116D73502E799087006C3E94 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 116D734F2E799087006C3E94 /* RxSwift */; };
+		116D73522E79908C006C3E94 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 116D73512E79908C006C3E94 /* RxCocoa */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116D73522E79908C006C3E94 /* RxCocoa in Frameworks */,
+				116D73502E799087006C3E94 /* RxSwift in Frameworks */,
 				116D734A2E798DE9006C3E94 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				116D73322E798C5A006C3E94 /* RxSwiftTutorial */,
+				116D734E2E799087006C3E94 /* Frameworks */,
 				116D73312E798C5A006C3E94 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,6 +66,13 @@
 				116D73302E798C5A006C3E94 /* RxSwiftTutorial.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		116D734E2E799087006C3E94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +96,8 @@
 			name = RxSwiftTutorial;
 			packageProductDependencies = (
 				116D73492E798DE9006C3E94 /* SnapKit */,
+				116D734F2E799087006C3E94 /* RxSwift */,
+				116D73512E79908C006C3E94 /* RxCocoa */,
 			);
 			productName = RxSwiftTutorial;
 			productReference = 116D73302E798C5A006C3E94 /* RxSwiftTutorial.app */;
@@ -374,6 +388,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 116D73482E798DE9006C3E94 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		116D734F2E799087006C3E94 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 116D734D2E798E90006C3E94 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		116D73512E79908C006C3E94 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 116D734D2E798E90006C3E94 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
